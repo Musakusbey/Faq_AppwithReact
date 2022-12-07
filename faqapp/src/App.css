@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+
+.App {
+    width: 100%;
+    min-height: 100vh; 
+    padding: 20px 0;
+    background: #edeef1;
+    letter-spacing: 1.3px;
+    background-image: url("C:\Users\Musa\Desktop\(P10)Faq_App\Resimler\11027696.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(92, 157, 132); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} 
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 540px;
+    margin: 18px auto;
+    background-color: #F1F0C0;
+    color: rgb(92, 157, 132); 
+} 
+
+.accordionHeading .container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    color: #fff;
+}
+
+.accordionHeading {
+    background: #B7E5DD;
+    padding: 14px 0;
+
+}
+
+.accordionHeading p {
+    letter-spacing: 1.2px;
+    font-weight: 600;   
+    color: rgb(92, 157, 132); 
+}
+
+.accordionHeading span {
+    cursor: pointer; 
+    color: rgb(92, 157, 132); 
+}
+
+.accordionContent {
+    background: #00797b;
+    height: 0;
+    opacity: 0;
+    display: flex;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+}
+
+.accordionContent.show {        
+    height: 180px;             
+    opacity: 1;
+
+} 
+
+.accordionContent p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
+
+}
+
+#prg{
+    font-style: italic;
+    overflow:visible;
+}
